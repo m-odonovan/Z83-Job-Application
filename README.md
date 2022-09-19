@@ -11,9 +11,7 @@ Provides the following features:
 4. Submitted applications are saved associated to the job vacancy for easy review
 5. Basic analytics provided for job vacancies and applications.
 
-The canvas Power App supports offline usage scenarios too. That is, the person completing the inspection / audit doesnt need to have internet connectivity on their mobile device in order to capture the data. Once connected later, they can see saved records and submit them.
-
-## Its a sample
+## Its a starter / sample
 Please do note, this is a sample application that is not intended to be used in production environments as is. It is intended to help a Power Apps developer to learn how they could assemble such an application. It is certainly not a perfect solution, it hasn't been well tested, and is missing some key features that I hope to add over time.
 
 ## How it works
@@ -21,7 +19,7 @@ There are 2 main applications which makeup this solution.
 1 - Admin Model Driven App
 2 - User Canvas App
 
-All data resides in the Common Data Service (CDS), both WizAud definitions and responses.
+All data resides in the Microsoft Dataverse (CDS), both job vacancies, job applications, master data, uploaded documents and more.
 
 The admin model driven app is where you setup your WizAuds. A WizAud is something you want to capture e.g. Site Inspection, Vehicle Inspection, Request for Leave etc. Within a WizAud you define what fields (questions) you would like a person using the Canvas app to complete. A WizAud has a name, option start and end date, and some future feature flags e.g. generate PDF, request final signature etc. Each field has a data type, and order where it appears in the list of questions, required or not, if notes field should be displayed and if images should be captured for the question (future feature).
 
