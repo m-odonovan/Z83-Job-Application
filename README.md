@@ -1,5 +1,5 @@
 # Z83-Job-Application
-Z83 Job Application solution is designed to be used by South African public sector organizations. It is built on the Microsoft Power Platform, and uses Microsoft Power Apps and Power Pages mostly. It allows a department to Manage job vacancies published to a portal and support online applications according to Z83 format application form format.
+Z83 Job Application solution is designed to be used by South African public sector organizations. It is built on the Microsoft Power Platform, and uses Microsoft Power Apps, Power Pages and Power Automate mostly. It allows a department to Manage job vacancies published to a portal and support online applications according to Z83 format application form format.
 
 ## Background
 Use "as-is" or customise as appropriate.
