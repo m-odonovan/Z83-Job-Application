@@ -8,21 +8,19 @@ Provides the following features:
 1. Create and manage job vacancies in a central admin application (Model Driven Power App)
 2. Schedule, auto publish and remove the vacancy from the online web portal (Power Pages)
 3. Allow applicants to apply online using same fields required in paper based Z83 form. Enforces integrity and accuracy of information through data validation, choice fields, required fields and more.
-4. Submitted applications are saved associated to the job vacancy for easy review
+4. Submitted applications are saved associated to the job vacancy for easy review, along with a auto generated PDF version
 5. Basic analytics provided for job vacancies and applications.
 
 ## Its a starter / sample
-Please do note, this is a sample application that is not intended to be used in production environments as is. It is intended to help a Power Apps developer to learn how they could assemble such an application. It is certainly not a perfect solution, it hasn't been well tested, and is missing some key features that I hope to add over time.
+Please do note, this is a a starter / sample. It hasn't been well tested, and is missing some key features that I hope to add over time. It not officialy supported by myself or Microsoft. However, because the unmanaged and managed solution is provided, you should be able to support it yourself, either directly or through a certified Microsoft partner.
 
 ## How it works
 There are 2 main applications which makeup this solution. 
-1 - Admin Model Driven App
-2 - User Canvas App
+1 - Admin Model Driven App (Z83 Manager)
+2 - Power Portal / Power Pages site
 
-All data resides in the Microsoft Dataverse (CDS), both job vacancies, job applications, master data, uploaded documents and more.
+All data resides in the Microsoft Dataverse. This includes job vacancies, job applications, master data, uploaded documents and more.
 
-The admin model driven app is where you setup your WizAuds. A WizAud is something you want to capture e.g. Site Inspection, Vehicle Inspection, Request for Leave etc. Within a WizAud you define what fields (questions) you would like a person using the Canvas app to complete. A WizAud has a name, option start and end date, and some future feature flags e.g. generate PDF, request final signature etc. Each field has a data type, and order where it appears in the list of questions, required or not, if notes field should be displayed and if images should be captured for the question (future feature).
+The admin model driven app is where you setup your job vacancies, job vacancies parameters like job description, salary level and more. You configure when it should be auto published to portal, and when it should be removed / applications close. The portal allows for applicants to see vacancies, and apply. Applications are saved associated to the vacancy so that they can be screened / processed.
 
-The canvas app is a 2 screen sample app designed for phone form factor. First screen lists the WizAuds available for the user to complete, and also shows draft responses and previous responses. When you select a WizAud to complete, you are take to the second screen which lists the questions/fields the user should complete. Save as Draft will allow you to save a response to be submitted later e.g. because you are offline, and Submit button submits data to backend (CDS). Submit button is not available if offline.
-
-Solution file and overview PPT is in the solution folder.
+More information on how the solution works, including demo is in the attached Solution Demo PPT. Installation instructions in the instructions PPT.
