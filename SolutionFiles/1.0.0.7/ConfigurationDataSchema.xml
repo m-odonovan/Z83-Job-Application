@@ -1,0 +1,110 @@
+<entities >
+  <entity name="govc_z83setting" displayname="Z83 Setting" etc="10354" primaryidfield="govc_z83settingid" primarynamefield="govc_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Default" name="govc_default" type="bool" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Max Subgrid Rows" name="govc_maxsubgridrows" type="number" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="govc_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="SharePoint Folder Path" name="govc_sharepointfolderpath" type="string" customfield="true" />
+      <field displayname="SharePoint Site URL" name="govc_sharepointsiteurl" type="string" customfield="true" />
+      <field displayname="Stages Mark Application Inactive" name="govc_stagesmarkapplicationinactive" type="entityreference" lookupType="govc_jobapplicationstage" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Z83 Setting" name="govc_z83settingid" type="guid" primaryKey="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="govc_qualificationlevel" displayname="Qualification Level" etc="10215" primaryidfield="govc_qualificationlevelid" primarynamefield="govc_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="govc_name" type="string" customfield="true" />
+      <field displayname="NQF Level" name="govc_nqflevel" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Qualification Level" name="govc_qualificationlevelid" type="guid" primaryKey="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="govc_jobvacancystage" displayname="Job Vacancy Stage" etc="10359" primaryidfield="govc_jobvacancystageid" primarynamefield="govc_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Job Vacancy Stage" name="govc_jobvacancystageid" type="guid" primaryKey="true" />
+      <field displayname="Job Vacancy Stage Description" name="govc_jobvacancystagedescription" type="string" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="govc_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Show on Portal" name="govc_showonportal" type="bool" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="govc_jobapplicationstage" displayname="Job Application Stage" etc="10358" primaryidfield="govc_jobapplicationstageid" primarynamefield="govc_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Job Application Stage" name="govc_jobapplicationstageid" type="guid" primaryKey="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="govc_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Sets Application Inactive" name="govc_setsapplicationinactive" type="bool" customfield="true" />
+      <field displayname="Show on Portal" name="govc_showonportal" type="bool" customfield="true" />
+      <field displayname="Stage Description" name="govc_jobapplicationstagedescription" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Trigger Comms to Applicant" name="govc_triggercommstoapplicant" type="bool" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+</entities>
