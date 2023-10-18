@@ -21,6 +21,17 @@ There are 2 main applications which makeup this solution.
 
 All data resides in the Microsoft Dataverse. This includes job vacancies, job applications, master data, uploaded documents and more.
 
-The admin model driven app is where you setup your job vacancies, job vacancies parameters like job description, salary level and more. You configure when it should be auto published to portal, and when it should be removed / applications close. The portal allows for applicants to see vacancies, and apply. Applications are saved associated to the vacancy so that they can be screened / processed.
+The admin model driven app is where you setup your job vacancies, job vacancies parameters like job description, salary level and more. You configure when it should be auto published to portal, and when it should be removed / applications close. 
 
-More information on how the solution works, including demo is in the attached Solution Demo PPT. Installation instructions in the instructions PPT.
+Admin App
+![Admin App](https://github.com/m-odonovan/Z83-Job-Application/blob/main/images/z83admin.gif "Admin App")
+
+The portal allows for applicants to see vacancies, and apply. Applications are saved associated to the vacancy so that they can be screened / processed.
+
+Web Portal
+![Web App](https://github.com/m-odonovan/Z83-Job-Application/blob/main/images/z83web.gif "Power Pages Portal")
+
+More information on how the solution works, including demo is in the attached Solution Demo PPT.
+
+## Installation instructions
+Documented in the instructions PPT.
